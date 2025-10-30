@@ -1,0 +1,10 @@
+[project]
+name = "capstone-project"
+version = "0.1.0"
+description = "Small Capstone Project to demonstrate my development skills. FastAPI application with a Kafka Client to produce data to kafka. Monitored by Prometheus / Grafana"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.118.2",
+    "pydantic[email]>=2.12.0",
+]

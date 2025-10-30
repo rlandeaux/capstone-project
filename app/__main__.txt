@@ -1,0 +1,5 @@
+import logging.config
+
+if __name__ == "__main__":
+    logging_config_file = "logging.ini"
+    logging.config.fileConfig(logging_config_file, disable_existing_loggers=False)
